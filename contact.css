@@ -1,0 +1,171 @@
+/* -------- Header de la page Contact -------- */
+.contact-header {
+    background: url("contact-bg.jpg") center/cover no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background-image: url('bit.jpg'); /* Remplace 'background.jpg' par le nom de ton image */
+        background-size: cover; /* Couvre tout l'espace */
+        background-position: center; /* Centre l'image */
+        padding: 20px; /* Ajoute de l'espace autour du formulaire */
+        border-radius: 8px; /* Arrondi les bords */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+        max-width: 500px; 
+        margin: auto;
+        color: white; 
+
+    
+}
+
+/* -------- Conteneur principal -------- */
+.contact-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* -------- Infos de contact -------- */
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+/* -------- Formulaire de contact -------- */
+.contact-form {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 1rem;
+    display: block;
+    color: #444;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.9rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.contact-form button {
+    margin-top: 1.5rem;
+    padding: 0.9rem;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(45deg, #0056b3, #003580);
+    transform: translateY(-3px);
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+} 
+/* Style du bouton */
+.btn-feedback {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Effet au survol */
+.btn-feedback:hover {
+    background: #0056b3;
+}
+/* Styles pour la notification de succès */
+#successMessage {
+    display: none; /* Par défaut, la notification est cachée */
+    background-color: #4CAF50; /* Couleur de fond pour le succès */
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+

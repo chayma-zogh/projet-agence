@@ -1,0 +1,293 @@
+/* Hyperlinks */
+a:link { color: blue; }
+a:visited { color: purple; }
+a:hover { color: red; }
+a:active { color: green; }
+
+/* Body */
+body {
+    background-image: url(agence_background.webp); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1A1A1A;
+    padding: 15px 50px;
+    opacity: 0.95;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255, 248, 248, 0.8);
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Navigation List */
+.lista {
+    list-style: none;
+    display: flex;    
+    gap: 20px;
+}
+
+.lista li a:hover {
+    color: #ffdd57;
+}
+
+/* Input field styles */
+.input {
+    display: flex;
+    align-items: center;
+    background: white; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.input .material-symbols-outlined {
+    font-size: 24px;
+    color: gray;
+    margin-right: 6px;
+}
+
+.input:hover {
+    background: #f0f0f0; 
+}
+
+.input input {
+    width: 100%;
+    border: none; 
+    outline: none;
+    font-size: 16px;
+    background: transparent; 
+}
+
+/* Confidence Section */
+.confiance {
+    opacity: 80%;
+}
+
+.confiance img {
+    width: 100%;
+    height: auto; 
+}
+
+/* Section 1 */
+.s1 {
+    display: block;
+    padding: 50px;
+    text-align: center;
+}
+
+.s1 h1 {
+    font-size: 36px;
+}
+
+/* Image styling */
+img {
+    width: 255px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+/* Container for slides */
+.container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.mySlides {
+    width: 23%; 
+    margin: 10px 0; 
+}
+
+.mySlides img {
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+/* Layout for left and right sections */
+.LR {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.right {
+    flex: 1;
+}
+
+/* Form and table styling */
+fieldset {
+    background: white;
+    opacity: 0.8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+table {
+    width: 100%;
+}
+
+.form-row label {
+    display: inline-block;
+    font-weight: bold; 
+    margin-bottom: 0.5rem; 
+    width: 100%;
+    color: #1A1A1A; 
+}
+
+.form-row {
+    margin: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Button styles */
+.bttn1 {
+    margin-bottom: 2px;
+}
+
+/* Test Section */
+.tests {
+    text-align: center;
+    padding: 30px;
+}
+
+.tests h2 {
+    font-size: 36px;
+}
+
+.test-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.test {
+    background: #1A1A1A;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Flexbox Layout */
+.right {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin-top: 30px; 
+}
+
+.right article {
+    flex: 1 1 calc(33.33% - 10px);
+    box-sizing: border-box;
+}
+
+.right img {
+    width: 100%; 
+    height: auto; 
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.clicked {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+}
+.lista a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.lista a:hover {
+    background-color: white;
+    color: #333;
+    transform: scale(1.1);
+}
+
+
